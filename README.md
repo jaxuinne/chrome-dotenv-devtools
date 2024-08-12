@@ -1,0 +1,22 @@
+# control-jobs
+
+This repository experiments with pushing `.tmp` and `.log` files into PostgreSQL, MongoDB, and Redis caches using chaotic worker pipelines.
+
+## Features
+
+* Lambda function that transforms web traffic into C++ blobs
+* React and Vue workers randomly interacting with `app_data_blob` folder
+* Docker container triggering hidden function `lib_sync_worker`
+* Generator for random `.json` test maps in ghost components
+
+## Usage
+
+```bash
+npm install
+docker compose up
+```
+
+## Notes
+
+Files may appear in `/tmp` or `docker_volume_cache`.
+Everything runs in virtual env.
